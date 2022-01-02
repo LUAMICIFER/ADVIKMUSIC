@@ -225,7 +225,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="JOIN AND DO BACKCHODI",
-                            url=f"https://t.me/anthesm_chat_box")
+                            url=f"https://t.me/Vampire_baap")
 
                 ]
             ]
@@ -241,7 +241,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="JOIN AND DO BACKCHODI",
-                            url=f"https://t.me/anthesm_chat_box")
+                            url=f"https://t.me/Vampire_baap")
 
                 ]
             ]
@@ -296,7 +296,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="JOIN AND DO BACKCHODI",
-                            url=f"https://t.me/anthesm_chat_box")
+                            url=f"https://t.me/Vampire_baap")
 
                 ]
             ]
@@ -348,7 +348,7 @@ async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg", 
-                             caption="**AKG_ANTHESM MUSIC BEAST\ NOW PLAING...**"
+                             caption="**CADEN_OP MUSIC BEAST\ NOW PLAING...**"
     )
 
 
@@ -359,7 +359,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg", 
-                             caption="**AKG_ANTHESM MUSIC BEAST\n NOW PLAYING SONG ...**"
+                             caption="**CADEN_OP MUSIC BEAST\n NOW PLAYING SONG ...**"
     )
 
 
@@ -393,7 +393,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg", 
-                             caption=f'**AKG_ANTHESM MUSIC BEAST\n SONG SKKIPED ...**'
+                             caption=f'**CADEN_OP MUSIC BEAST\n SONG SKKIPED ...**'
    ) 
 
 
@@ -409,7 +409,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg", 
-                             caption="**AKG_ANTHESM MUSIC BEAST\ SONG TERMINATED ...**"
+                             caption="**CADEN_OP MUSIC BEAST\ SONG TERMINATED ...**"
     )
 
 
@@ -427,5 +427,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg",
-                              caption="**AKG_ANTHESM\n REALOADING BOT...**"
+                              caption="**CADEN_OP\n REALOADING BOT...**"
     )
