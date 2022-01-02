@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: 👑AKGANTHESM (@AKG_ANTHESM)",
+        f"Powered By: 👑ᴄᴀᴅᴇɴ (@Caden_OP)",
         (255, 255, 255),
         font=font,
     )
@@ -102,7 +102,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/ytp", "Play"])
+    commandpro(["/play", "/love", "Play"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -176,7 +176,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg"
+        thumb_name = "https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -186,7 +186,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="JOIN GROUP",
-                            url=f"https://t.me/akganthesm_chat_box")
+                            url=f"https://t.me/Vampire_baap")
 
                 ]
             ]
