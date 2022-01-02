@@ -34,12 +34,12 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg",
+        photo=f"https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-BOT FAST LIKE FAST AS FUCK](https://t.me/AKG_ANTHESM)
+BOT FAST LIKE FAST AS FUCK] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [AKG_ANTHESM](https://t.me/Caden_OP)
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [bakchodi point](https://anthesm_chat_box)
+┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [Ƥ𝚛𝚒ͥภ𝚌ͣ𝚎ͫ𝚜𝚜](https://t.me/MISS_ROCKSTAR)
+┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [BAKCHODI POINT](https://t.me/vampire_baap)
 ┗━━━━━━━━━━━━━━━━━┛
 
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
@@ -64,7 +64,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "JOIN FOR BAKCHODI", url=f"https://t.me/anthesm_chat_box")
+                        "JOIN FOR BAKCHODI", url=f"https://t.me/vampire_baap")
                 ]
             ]
         ),
