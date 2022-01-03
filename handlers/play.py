@@ -176,7 +176,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg"
+        thumb_name = "https://telegra.ph/file/57aab166a5805db73592d.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -233,7 +233,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg"
+            thumb_name = "https://telegra.ph/file/57aab166a5805db73592d.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**AKG_ANTHESM  MUSIC BEAST\n PLAYING  ...**".format(),
+            caption="**ᴄᴀᴅᴇɴ_ᴏᴘ  ᴍᴜsɪᴄ ʙᴇᴀsᴛ/ɴ ᴘʟᴀʏɪɴɢ❣️  ...**".format(),
         )
 
     os.remove("final.png")
@@ -341,25 +341,25 @@ async def play(_, message: Message):
     
     
     
-@Client.on_message(commandpro(["/pause", "Pause"]) & other_filters)
+@Client.on_message(commandpro(["/pause", "bhagbsdk", "Pause"]) & other_filters)
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg", 
-                             caption="**CADEN_OP MUSIC BEAST\ NOW PLAING...**"
+                             photo="https://telegra.ph/file/57aab166a5805db73592d.jpg", 
+                             caption="**ᴄᴀᴅᴇɴ_ᴏᴘ ᴍᴜsɪᴄ ʙᴇᴀsᴛ\ ɴᴏᴡ ᴘʟᴀʏɪɴɢ...**"
     )
 
 
-@Client.on_message(commandpro(["/resume", "Resume"]) & other_filters)
+@Client.on_message(commandpro(["/resume", "rukbsdk", "Resume"]) & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg", 
-                             caption="**CADEN_OP MUSIC BEAST\n NOW PLAYING SONG ...**"
+                             photo="https://telegra.ph/file/57aab166a5805db73592d.jpg", 
+                             caption="**ᴄᴀᴅᴇɴ_ᴏᴘ ᴍᴜsɪᴄ ʙᴇᴀsᴛ\n ɴᴏᴡ ᴘʟᴀʏɪɴɢ ...**"
     )
 
 
@@ -392,8 +392,8 @@ async def skip(_, message: Message):
                 )
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg", 
-                             caption=f'**CADEN_OP MUSIC BEAST\n SONG SKKIPED ...**'
+                             photo="https://telegra.ph/file/57aab166a5805db73592d.jpg", 
+                             caption=f'**ᴄᴀᴅᴇɴ_ᴏᴘ ᴍᴜsɪᴄ ʙᴇᴀsᴛ\n sᴏɴɢ sᴋɪᴘᴘᴇᴅ ...**'
    ) 
 
 
@@ -408,12 +408,12 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg", 
-                             caption="**CADEN_OP MUSIC BEAST\ SONG TERMINATED ...**"
+                             photo="https://telegra.ph/file/57aab166a5805db73592d.jpg", 
+                             caption="**ᴄᴀᴅᴇɴ_ᴏᴘ ᴍᴜsɪᴄ ʙᴇᴀsᴛ\ sᴏɴɢ ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ...**"
     )
 
 
-@Client.on_message(commandpro(["reload", "refresh"]))
+@Client.on_message(commandpro(["reload", "restart", "refresh"]))
 @errors
 @authorized_users_only
 async def admincache(client, message: Message):
@@ -426,6 +426,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg",
-                              caption="**CADEN_OP\n REALOADING BOT...**"
+                              photo="https://telegra.ph/file/57aab166a5805db73592d.jpg",
+                              caption="**ᴄᴀᴅᴇɴ_ᴏᴘ\n ʀᴇʟᴏᴀᴅ...**"
     )
