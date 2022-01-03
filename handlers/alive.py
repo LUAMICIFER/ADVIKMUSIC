@@ -55,10 +55,10 @@ BOT FAST LIKE FAST AS FUCK] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "legend"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "legend", caden"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg",
+        photo=f"https://telegra.ph/file/57aab166a5805db73592d.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
