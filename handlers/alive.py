@@ -76,7 +76,7 @@ async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-ᴄᴀᴅᴇɴ ɪs ᴍʏ ᴏᴡɴᴇʀ😎 ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪssᴜᴇ🙁 ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
+ᴄᴀᴅᴇɴ ɪs ᴍʏ ᴏᴡɴᴇʀ😎 ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪssᴜᴇ🙁 ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ❣️🌹] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
         reply_markup=InlineKeyboardMarkup(
             [
                 [
