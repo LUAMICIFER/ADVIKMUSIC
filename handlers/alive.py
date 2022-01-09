@@ -37,6 +37,7 @@ async def start_(client: Client, message: Message):
         photo=f"https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 BOT FAST LIKE FAST AS FUCK] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
+ғᴏʀ ᴄʜᴇᴄᴋ ᴄᴏᴍᴍᴀɴᴅs /cmdlist
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [Ƥ𝚛𝚒ͥภ𝚌ͣ𝚎ͫ𝚜𝚜](https://t.me/MISS_ROCKSTAR)
 ┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [BAKCHODI POINT](https://t.me/vampire_baap)
@@ -77,7 +78,6 @@ async def start(client: Client, message: Message):
         photo=f"https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 ᴄᴀᴅᴇɴ ɪs ᴍʏ ᴏᴡɴᴇʀ😎 ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪssᴜᴇ🙁 ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ❣️🌹] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
-ғᴏʀ sᴇᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs /cmdlist
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -98,13 +98,13 @@ async def cmdlist(_, message: Message):
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
 **🏷 Common Commands.**
-• `/play /love play` - Song Name : __Plays Via Youtube__
+• `/love fuck play` - Song Name : __Plays Via Youtube__
 **🏷 Group Admin Commands.**
 • `/next next` : __Skips current music__
 • `/pause bhagbsdk` : __Pause Playing Music__
 • `rukbsdk /resume` : __Resume Playing Music__
 • `Caden` : __About bot owner__
-• `/end end` : __Stops playing Music.__""",
+• `/end mc` : __Stops playing Music.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Vampire_baap")
