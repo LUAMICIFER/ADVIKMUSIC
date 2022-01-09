@@ -77,6 +77,7 @@ async def start(client: Client, message: Message):
         photo=f"https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 ᴄᴀᴅᴇɴ ɪs ᴍʏ ᴏᴡɴᴇʀ😎 ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪssᴜᴇ🙁 ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ❣️🌹] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
+ғᴏʀ sᴇᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs /cmdlist
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -87,3 +88,26 @@ async def start(client: Client, message: Message):
             ]
         ),
     )
+    
+    
+
+@Client.on_message(filters.command(["cmdlist", "start@Caden_music_bot"]) & filters.private & ~filters.channel)
+async def cmdlist(_, message: Message):
+    await message.reply_text(
+        text="""**Caden Music Bot : Help Menu**
+__× First Add Me To Your Group..
+× Promote Me As Admin In Your Group With All Permission..__
+**🏷 Common Commands.**
+• `/play /love play` - Song Name : __Plays Via Youtube__
+**🏷 Group Admin Commands.**
+• `/next next` : __Skips current music__
+• `/pause bhagbsdk` : __Pause Playing Music__
+• `rukbsdk /resume` : __Resume Playing Music__
+• `Caden` : __About bot owner__
+• `/end end` : __Stops playing Music.__""",
+        reply_markup=InlineKeyboardMarkup(
+              [[
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Vampire_baap")
+              ]]
+          )
+      )
