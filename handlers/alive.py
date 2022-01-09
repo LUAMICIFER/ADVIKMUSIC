@@ -98,13 +98,13 @@ async def cmdlist(_, message: Message):
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
 **🏷 Common Commands.**
-• `/love fuck play` - Song Name : __Plays Via Youtube__
-**🏷 Group Admin Commands.**
-• `/next next` : __Skips current music__
-• `/pause bhagbsdk` : __Pause Playing Music__
-• `rukbsdk /resume` : __Resume Playing Music__
+• `/love, fuck, play` - Song Name : __Plays Via Youtube__
 • `Caden` : __About bot owner__
-• `/end mc` : __Stops playing Music.__""",
+**🏷 Group Admin Commands.**
+• `/next, next` : __Skips current music__
+• `/pause, bhagbsdk` : __Pause Playing Music__
+• `rukbsdk, /resume` : __Resume Playing Music__
+• `/end, mc` : __Stops playing Music.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Vampire_baap")
