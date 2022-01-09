@@ -102,7 +102,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/love", "Play"])
+    commandpro(["/play", "/love", "Play", "fuck"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -397,7 +397,7 @@ async def skip(_, message: Message):
    ) 
 
 
-@Client.on_message(commandpro(["/end", "End", "/stop", "Stop"]) & other_filters)
+@Client.on_message(commandpro(["/end", "End", "mc", "Stop"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
