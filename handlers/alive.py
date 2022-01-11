@@ -39,8 +39,8 @@ async def start_(client: Client, message: Message):
 BOT FAST LIKE FAST AS FUCK] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
 ғᴏʀ ᴄʜᴇᴄᴋ ᴄᴏᴍᴍᴀɴᴅs /cmdlist
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [ɢʀᴏᴜᴘ](https://t.me/vampire_baap)
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [ʟᴜᴄʏ](https://t.me/LUCYS)
+┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [ɢʀᴏᴜᴘ](https://t.me/VAMPIRE_EMPIRE_OFFICIAL)
+┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [ʟᴜᴄʏ](https://t.me/LOCYS)
 ┗━━━━━━━━━━━━━━━━━┛
 
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
@@ -65,7 +65,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "JOIN FOR BAKCHODI", url=f"https://t.me/vampire_baap")
+                        "JOIN FOR BAKCHODI", url=f"https://t.me/VAMPIRE_EMPIRE_OFFICIAL")
                 ]
             ]
         ),
@@ -107,7 +107,7 @@ __× First Add Me To Your Group..
 • `/end, mc` : __Stops playing Music.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Vampire_baap")
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/VAMPIRE_EMPIRE_OFFICIAL")
               ]]
           )
       )
