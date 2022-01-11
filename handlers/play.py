@@ -186,7 +186,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="JOIN GROUP",
-                            url=f"https://t.me/Vampire_baap")
+                            url=f"https://t.me/VAMPIRE_EMPIRE_OFFICIAL")
 
                 ]
             ]
@@ -241,7 +241,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="JOIN AND DO BACKCHODI",
-                            url=f"https://t.me/Vampire_baap")
+                            url=f"https://t.me/VAMPIRE_EMPIRE_OFFICIAL")
 
                 ]
             ]
@@ -296,7 +296,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="JOIN AND DO BACKCHODI",
-                            url=f"https://t.me/Vampire_baap")
+                            url=f"https://t.me/VAMPIRE_EMPIRE_OFFICIAL")
 
                 ]
             ]
