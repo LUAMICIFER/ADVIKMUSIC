@@ -32,4 +32,4 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Krishnamod/CadenOP
 )
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FKrishnamod%2FCadenOP&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CBOT_USERNAME%2CDURATION_LIMIT%2CSESSION_NAME%2CSUDO_USERS&DURATION_LIMITDefault=60&referralCode=WyKIfS
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Krishnamod/CadenOP&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CBOT_USERNAME%2CDURATION_LIMIT%2CSESSION_NAME%2CSUDO_USERS&DURATION_LIMITDefault=60&referralCode=WyKIfS
