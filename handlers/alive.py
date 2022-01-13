@@ -40,7 +40,7 @@ BOT FAST LIKE FAST AS FUCK] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
 ғᴏʀ ᴄʜᴇᴄᴋ ᴄᴏᴍᴍᴀɴᴅs /cmdlist
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [ɢʀᴏᴜᴘ](https://t.me/VAMPIRE_EMPIRE_OFFICIAL)
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [ʟᴜᴄʏ](https://t.me/LOCYS)
+┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [ʟᴜᴄʏ](https://t.me/TEAM_VAMPIRES)
 ┗━━━━━━━━━━━━━━━━━┛
 
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
