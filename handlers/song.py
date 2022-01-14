@@ -23,9 +23,9 @@ from yt_dlp.utils import (
 
 @Client.on_message(filters.command("song") & ~filters.edited)
 async def song(client, message):
-    cap = "**SONG LOADED IN KHOPCHA ](https://t.me/vampire_baap) ...**"
+    cap = "**JA RAHA KHOJNE ](https://t.me/+HBlyprUka24zMjk1) ...**"
     url = message.text.split(None, 1)[1]
-    rkp = await message.reply("**FIND SONG FROM KHCOPCHA ...**")
+    rkp = await message.reply("**MIL GAYA**")
     if not url:
         await rkp.edit("**PLZ FIND ANOTHER SONG IN KHOPCHA ...**")
     search = SearchVideos(url, offset=1, mode="json", max_results=1)
@@ -35,7 +35,7 @@ async def song(client, message):
     try:
         url = q[0]["link"]
     except BaseException:
-        return await rkp.edit("**SONG NOT FOUND IN KHOPCHA ...**")
+        return await rkp.edit("**KYA GUNDA BANEGA RE TU SONG NAHI MILA  ...**")
     type = "audio"
     if type == "audio":
         opts = {
@@ -59,25 +59,25 @@ async def song(client, message):
         }
         song = True
     try:
-        await rkp.edit("**KHOPCHA  IZ READY ...**`")
+        await rkp.edit("**READY HAI ...**`")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
         await rkp.edit(f"`{str(DE)}`")
         return
     except ContentTooShortError:
-        await rkp.edit("`The download content was too short.`")
+        await rkp.edit("`THODI TO BADI FILE DWONALOAD KAR.`")
         return
     except GeoRestrictedError:
         await rkp.edit(
-            "`Video is not available from your geographic location due to geographic restrictions imposed by a website.`"
+            "`ARE YE VIDEO IDHAR ALLOWED NAHI HAI`"
         )
         return
     except MaxDownloadsReached:
-        await rkp.edit("`Max-downloads limit has been reached.`")
+        await rkp.edit("`LIMIT REACH HO GAYI`")
         return
     except PostProcessingError:
-        await rkp.edit("`There was an error during post processing.`")
+        await rkp.edit("`HR CHEEJ KI EK SEEMA HOTI HAI`")
         return
     except UnavailableVideoError:
         await rkp.edit("`Media is not available in the requested format.`")
@@ -93,7 +93,7 @@ async def song(client, message):
         return
     time.time()
     if song:
-        await rkp.edit("**📤LOADING SONG FROM KHOPCHA...**"),
+        await rkp.edit("**📤LOADING SONG FROM ADVIK-ADVIKA...**"),
         lol = "./etc/tg_vc_bot.jpg"
         lel = await message.reply_audio(
                  f"{rip_data['id']}.mp3",
