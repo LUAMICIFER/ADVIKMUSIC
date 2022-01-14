@@ -36,11 +36,11 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-BOT FAST LIKE FAST AS FUCK] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
+BOT FAST LIKE FAST AS ADVIK] [ADVIK](https://t.me/Luami_cifer)
 ғᴏʀ ᴄʜᴇᴄᴋ ᴄᴏᴍᴍᴀɴᴅs /cmdlist
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [ɢʀᴏᴜᴘ](https://t.me/VAMPIRE_EMPIRE_OFFICIAL)
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [ʟᴜᴄʏ](https://t.me/TEAM_VAMPIRES)
+┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [ɢʀᴏᴜᴘ](https://t.me/+i6XHgq8S_0k1NzQ1)
+┣★ OWNER : [ADVIK](https://t.me/Luami_cifer)
 ┗━━━━━━━━━━━━━━━━━┛
 
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
@@ -48,7 +48,7 @@ BOT FAST LIKE FAST AS FUCK] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
             [
                 [
                     InlineKeyboardButton(
-                       " ❰ 𝘼𝙙𝙙 𝙈𝙚 𝙄𝙣 𝙂𝙧𝙤𝙪𝙥 ❱", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                       " ❰ GROUP ME ADD KAR ❱", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
@@ -56,34 +56,34 @@ BOT FAST LIKE FAST AS FUCK] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "legend"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "ADVIK"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/57aab166a5805db73592d.jpg",
+        photo=f"hhttps://te.legra.ph/file/06531c5f534c04286f149.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "JOIN FOR BAKCHODI", url=f"https://t.me/VAMPIRE_EMPIRE_OFFICIAL")
+                        "JOIN FOR MASTI", url=f"https://t.me/+i6XHgq8S_0k1NzQ1")
                 ]
             ]
         ),
     )
 
 
-@Client.on_message(commandpro(["caden", "Owner"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["ADVIK", "Owner"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/33a6f809c3ce77cdf51be.jpg",
+        photo=f"https://te.legra.ph/file/4ea0334e7f95bbafbda8e.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-ᴄᴀᴅᴇɴ ɪs ᴍʏ ᴏᴡɴᴇʀ😎 ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪssᴜᴇ🙁 ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ❣️🌹] [ᴄᴀᴅᴇɴ](https://t.me/Caden_OP)
+ADVIK ɪs ᴍʏ ᴏᴡɴᴇʀ😎 ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪssᴜᴇ🙁 ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ❣️🌹] [ADVIK](https://t.me/Luami_cifer)
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ᴄᴀᴅᴇɴ's ᴡɪғᴇ❣️", url=f"https://t.me/Caden_XD")
+                        "ADVIK's ᴡɪғᴇ❣️", url=f"https://t.me/onctxrxr")
                 ]
             ]
         ),
@@ -91,23 +91,23 @@ async def start(client: Client, message: Message):
     
     
 
-@Client.on_message(filters.command(["cmdlist", "start@Caden_music_bot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["cmdlist", "help"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**Caden Music Bot : Help Menu**
+        text="""**ADVIK Music Bot : MADAT KENDRA 😂**
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
 **🏷 Common Commands.**
-• `/love, fuck, play` - Song Name : __Plays Via Youtube__
-• `Caden` : __About bot owner__
+• `/JAAN, LOVE, play` - Song Name : __Plays Via Youtube__
+• `ADVIK` : __About bot owner__
 **🏷 Group Admin Commands.**
-• `/next, next` : __Skips current music__
-• `/pause, bhagbsdk` : __Pause Playing Music__
-• `rukbsdk, /resume` : __Resume Playing Music__
-• `/end, mc` : __Stops playing Music.__""",
+• `/next, AGLA` : __Skips current music__
+• `/pause, CHUP` : __Pause Playing Music__
+• `SHURUHOJA, /resume` : __Resume Playing Music__
+• `/end, CHALA JA` : __Stops playing Music.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/VAMPIRE_EMPIRE_OFFICIAL")
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/+i6XHgq8S_0k1NzQ1")
               ]]
           )
       )
