@@ -8,14 +8,14 @@ from pyrogram.errors import UserAlreadyParticipant
 from modules.callsmusic.callsmusic import client as aditya
 from modules.config import SUDO_USERS
 
-@Client.on_message(filters.command(["gcast"]))
+@Client.on_message(filters.command(["CHILLA"]))
 async def broadcast(_, message: Message):
     sent=0
     failed=0
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("`Stɑɤtɩŋʛ Ɓɤøɑɗƈɑst ...`")
+        wtf = await message.reply("`CHILLA CHILLA KAR SABKO SCHEME BATA DE ...`")
         if not message.reply_to_message:
             await wtf.edit("**__Ƥɭɘɑsɘ Ʀɘƥɭy Ƭø ɑ Mɘssɑʛɘ Ƭø Stɑɤt Ɓɤøɑɗƈɑst ...__**")
             return
