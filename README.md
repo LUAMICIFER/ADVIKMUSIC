@@ -1,6 +1,6 @@
-<h2 align="centre">AKG-ANTHESM 𝗠𝘂𝘀𝗶𝗰🇮🇳</h2>
+<h2 align="centre">ADVIK 𝗠𝘂𝘀𝗶𝗰🇮🇳</h2>
 
-###AKG MUSIC BOT 𝗠𝘂𝘀𝗶𝗰 ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+###ADVIK MUSIC BOT 𝗠𝘂𝘀𝗶𝗰 ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
 <p align="center"><a href="https://t.me/JaiHindChatting"><img src="https://github.com/mahabalix/AKGceden/blob/main/etc/tg_vc_bot.png" width="300"></a></p>
 
@@ -29,8 +29,8 @@
 [[GENRATE STRING](https://replit.com/@BoooCreative/Session-Generater#main.py)]
 ### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Krishnamod/CadenOP
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LUAMICIFER/ADVIKMUSIC
 )
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Krishnamod/CadenOP&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CBOT_USERNAME%2CDURATION_LIMIT%2CSESSION_NAME%2CSUDO_USERS&DURATION_LIMITDefault=60&referralCode=WyKIfS
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/LUAMICIFER/ADVIKMUSIC&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CBOT_USERNAME%2CDURATION_LIMIT%2CSESSION_NAME%2CSUDO_USERS&DURATION_LIMITDefault=60&referralCode=WyKIfS
 ) 
