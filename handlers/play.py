@@ -112,7 +112,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("**RUKO JARA SABR KARO**")
+    lel = await message.reply("**𝚁𝚄𝙺𝙾 𝙹𝙰𝚁𝙰 𝚂𝙰𝙱𝙰𝚁 𝙺𝙰𝚁𝙾**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -135,7 +135,7 @@ async def play(_, message: Message):
                         invitelink = invitelink.replace("https://t.me/+","https://t.me/joinchat/")
                 except:
                     await lel.edit(
-                        "<b>ARE ADMIN BANAO RE BAWA...</b>",
+                        "<b>𝐀𝐃𝐌𝐈𝐍 𝐁𝐀𝐍𝐀𝐎 𝐑𝐄 𝐁𝐀𝐖𝐀!!...</b>",
                     )
                     return
 
@@ -143,21 +143,21 @@ async def play(_, message: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message.chat.id,
-                        "**ADVIK-ADVIKA READY TO PLAY MUSIC**",
+                        "**𝔸𝔻𝕍𝕀𝕂-𝔸𝔻𝕍𝕀𝕂𝔸 ℝ𝔼𝔸𝔻𝕐 𝕋𝕆 ℝ𝕆ℂ𝕂🤘**",
                     )
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"NAHI AA PAYA MAI 🥺 "
+                        f"**𝓝𝓪𝓱𝓲 𝓪𝓪 𝓹𝓪𝔂𝓲 𝓶𝓪𝓲** "
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"**NAHI AA PAYA MAI 🥺.**"
+            f"**𝓝𝓪𝓱𝓲 𝓪𝓪 𝓹𝓪𝔂𝓲 𝓶𝓪𝓲 🥺**"
         )
         return
 
@@ -240,7 +240,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="ᴊᴏɪɴ ᴀɴᴅ ɢᴇᴛ OWNER😜",
+                            text="ᴊᴏɪɴ ғᴏʀ ᴏᴡɴᴇʀ😜",
                             url=f"https://t.me/+i6XHgq8S_0k1NzQ1")
 
                 ]
@@ -258,12 +258,12 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**GANA KA NAAM BATAO RE BAWA\ TO PLAY SONG...**"
+                "**tf**"
             )
-        await lel.edit("**🔎 JA RAHA HU KHOJNE...**")
+        await lel.edit("**🔎 𝙹𝙰 𝚁𝙰𝙷𝙸 𝙷𝚄 𝙺𝙷𝙾𝙹𝙽𝙴...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("**🔄 LO MAI AA GAYA ...**")
+        await lel.edit("**🔄 𝙻𝙾 𝙼𝙰𝙸 𝙰𝙰 𝙶𝙰𝚈𝙸 ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -286,7 +286,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**ARE KAISA SONG THA MILA HI NAHI ...**"
+                "**คгє ƙคίรค ร๏ภg t♄ค ๓ίlค ♄ί ภค♄ί😣**"
             )
             print(str(e))
             return
@@ -304,7 +304,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**ITNA KAAM MERE SE NA HO GA BAHUT LAMBA SONG H  {DURATION_LIMIT} ...**"
+                f"**ίtภค ƙคค๓ ๓єгєรє ภค ♄๏gค ๒ค♄ยt lค๓๒ค ♄คί😣{DURATION_LIMIT} ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -317,7 +317,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**ADVIK MUSIC BOT\n ADDED SONG\n thi sop group » `{}`...**".format(position),
+            caption="**ADVIKA MUSIC BOT\n ADDED SONG\n this op group » `{}`...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**Luami_cifer  ADVIK MUSIC/ɴ ᴘʟᴀʏɪɴɢ❣️  ...**".format(),
+            caption="**Luami_cifer  ADVIK MUSIC/n ɴ ᴘʟᴀʏɪɴɢ❣️  ...**".format(),
         )
 
     os.remove("final.png")
@@ -374,7 +374,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALL.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALL:
-        await message.reply_text("**chup ho ja ...**")
+        await message.reply_text("**C̸h̸u̸p̸ h̸o̸ j̸a̸ 😡 ...**")
     else:
         callsmusic.queues.task_done(chat_id)
 
@@ -409,7 +409,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/4ea0334e7f95bbafbda8e.jpg", 
-                             caption="**Luami_cifer  ADVIK MUSIC\ sᴏɴɢ ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ...**"
+                             caption="**Luami_cifer  ADVIK MUSIC\n sᴏɴɢ ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ...**"
     )
 
 
