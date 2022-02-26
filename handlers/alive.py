@@ -94,7 +94,7 @@ ADVIK ɪs ᴍʏ ᴏᴡɴᴇʀ😎 ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪssᴜᴇ🙁 �
 @Client.on_message(filters.command(["cmdlist", "help"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**ADVIK Music Bot : MADAT KENDRA 😂**
+        text="""**ADVIKA Music Bot : MADAT KENDRA 😂**
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
 **🏷 Common Commands.**
